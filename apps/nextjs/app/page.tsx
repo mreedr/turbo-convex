@@ -1,11 +1,8 @@
 "use client"
 import Image from "next/image";
 
-
 import { convexReact, convexApi } from '@repo/backend'
 const { ConvexProvider, ConvexReactClient } = convexReact
-
-
 
 const convex = new ConvexReactClient(process.env.NEXT_PUBLIC_CONVEX_URL ?? '')
 
